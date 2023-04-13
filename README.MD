@@ -8,3 +8,8 @@ const username = 'username';
 const password = 'password';
 const salesforceURL = 'salesforceurl'
 ```
+
+## Run with 
+```
+npm start
+```
