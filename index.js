@@ -63,5 +63,6 @@ app.put('/', (req, res) => {
 })
 
 app.listen(port, () => {
+    getToken().then(() => console.log('Authenticated!'));
     console.log(`Running on port: ${port}`);
 })
